@@ -1,10 +1,11 @@
 import React from "react"
 import ReactAux from "../../reactAux/ReactAux";
 import "./Layout.css"
+import Toolbar from "../Navigations/Toolbar/Toolbar";
 
 const Layout = (props) => (
     <ReactAux>
-        <div>Toolbar, Sidedrawer,Backdrop</div>
+        <Toolbar></Toolbar>
     <main className="Content">
         {props.children}
     </main>
